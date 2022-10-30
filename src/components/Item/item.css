@@ -1,0 +1,14 @@
+.card-img-top {
+    height: auto;
+    max-height: 150pxgit a;
+    max-width: 96%;
+}
+
+.card {
+    max-width: 220px;
+    justify-content: space-around;
+}
+
+.btn-primary {
+    align-self: flex-end
+}

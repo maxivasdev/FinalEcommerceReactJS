@@ -1,0 +1,65 @@
+.NavBar-Top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 5px;
+}
+
+.NavBar-Middle {
+    font-size: 5px;
+    background-color: #649aa1;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    flex: wrap;
+    justify-content: space-between;
+    margin-bottom: 250px;
+    border: solid black 2px;
+    position: relative;
+    border-radius: 15px;
+}
+
+.NavBar-Sections {
+    font-family: 'Indie Flower';
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: #58617396;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    position: absolute;
+    box-shadow: -1px 29px 33px 4px rgba(0, 0, 0, 0.62);
+    -webkit-box-shadow: -1px 29px 33px 4px rgba(0, 0, 0, 0.62);
+    right: 65px;
+    top: 220px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.Section-button:hover {
+    cursor: pointer;
+}
+
+.Main-Logo {
+    width: 30%;
+    border-radius: 100px;
+}
+
+.Section-button-activo {
+    color: black !important;
+    text-decoration: none;
+}
+
+.Section-button-inactivo {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a {
+    color: aliceblue !important;
+    text-decoration: none !important;
+}
